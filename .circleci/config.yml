@@ -16,10 +16,10 @@ jobs:
           name: font-end install
           command: |
             npm run frontend:install
-      - run:
-          name: font-end build
-          command: |
-            npm run frontend:build
+      # - run:
+      #     name: font-end build
+      #     command: |
+      #       npm run frontend:build
       - run:
           name: back-end install
           command: |
